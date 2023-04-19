@@ -60,7 +60,7 @@ Global Styles
 ===============
 */
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth; /*Cuando se da un click en el menu bajara a la seccion con un scroll suave*/
 }
 *,
 ::after,
@@ -213,7 +213,7 @@ nav {
 .fixed-nav .links a:hover {
   color: var(--clr-secondary);
 }
-/* .fixed-nav .links-container {
+/*.fixed-nav .links-container {
   height: auto !important;
 } */
 .nav-header {
@@ -301,7 +301,7 @@ nav {
 header {
   min-height: 100vh;
   background: linear-gradient(rgba(63, 208, 212, 0.5), rgba(0, 0, 0, 0.7)),
-    url(./hero-bcg.jpeg) center/cover no-repeat;
+    url(/imgs/hero-bcg.jpeg) center/cover no-repeat;
 }
 .banner {
   min-height: 100vh;
@@ -335,7 +335,7 @@ header {
 #about,
 #services,
 #tours {
-  height: 80vh;
+  height: 130vh;
 }
 #services {
   background: var(--clr-white);
